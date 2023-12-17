@@ -16,5 +16,6 @@ def guessTheNumber() :
         else :
             print("Too high ! Try again.")
 
-    if __name__ == "__main__":
-        guessTheNumber()
+#ensures that the guess_the_number() function is executed only if the script is run directly (not imported as a module).
+if __name__ == "__main__":
+    guessTheNumber()
